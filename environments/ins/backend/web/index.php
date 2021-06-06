@@ -12,13 +12,10 @@ $loader = new EngineCore\ConfigurationLoader(
         'app/bootstrap'    => __DIR__ . '/../config/bootstrap.php',
     ],
     [
-        'extensions/config' => __DIR__ . '/../../extensions/config.php',
         'common/main'       => __DIR__ . '/../../common/config/main.php',
         'common/db-local'   => __DIR__ . '/../../common/config/db-local.php',
-        'common/extension'  => __DIR__ . '/../../common/config/extension.php',
         'common/main-local' => __DIR__ . '/../../common/config/main-local.php',
         'app/main'          => __DIR__ . '/../config/main.php',
-        'app/extension'     => __DIR__ . '/../config/extension.php',
         'app/main-local'    => __DIR__ . '/../config/main-local.php',
     ],
     [

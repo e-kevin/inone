@@ -24,7 +24,7 @@ info "Init project"
 ./init --env=Installation --overwrite=y
 
 info "Install inOne"
-./yii environment/build --interactive=0
+./yii installation/install --interactive=0
 
 info "Create bash-alias 'app' for vagrant user"
 echo 'alias app="cd /app"' | tee /home/vagrant/.bash_aliases

@@ -1,4 +1,6 @@
 main-local.php
 params-local.php
+db-local.php
 extension.php
-bootstrap.php
+setting.php
+menu.php

@@ -1,12 +1,5 @@
 <?php
 
-$params = array_merge(
-    require(__DIR__ . '/../../common/config/params.php'),
-    require(__DIR__ . '/../../common/config/params-local.php'),
-    require(__DIR__ . '/params.php'),
-    require(__DIR__ . '/params-local.php')
-);
-
 return [
     'id' => \EngineCore\enums\AppEnum::FRONTEND,
     'name' => 'inOne System',
@@ -40,6 +33,4 @@ return [
 //            'suffix' => '.html',
         ],
     ],
-    'params' => $params,
-    'language' => 'zh-CN',
 ];

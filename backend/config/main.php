@@ -1,15 +1,7 @@
 <?php
 
-$params = array_merge(
-    require(__DIR__ . '/../../common/config/params.php'),
-    require(__DIR__ . '/../../common/config/params-local.php'),
-    require(__DIR__ . '/params.php'),
-    require(__DIR__ . '/params-local.php')
-);
-
 return [
     'id'                  => \EngineCore\enums\AppEnum::BACKEND,
-    'name'                => 'inOne System',
     'basePath'            => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap'           => [
@@ -41,6 +33,4 @@ return [
 //            'suffix' => '.html',
         ],
     ],
-    'params'              => $params,
-    'language'            => 'zh-CN',
 ];

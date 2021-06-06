@@ -4,7 +4,8 @@
   "keywords": [
     "yii2",
     "engine-core",
-    "enginecore"
+    "enginecore",
+    "ec"
   ],
   "authors": [
     {
@@ -16,9 +17,12 @@
   "license": "BSD-3-Clause",
   "homepage": "https://github.com/e-kevin/inone",
   "require": {
-    "e-kevin/engine-core": "@dev",
+    "e-kevin/engine-core": "~1.0.0@dev",
     "yiisoft/yii2-bootstrap": "~2.0.9",
-    "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0"
+    "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+    "engine-core/module-installation": "~1.0",
+    "engine-core/module-extension": "~1.0.0@dev",
+    "engine-core/controller-backend-site": "*"
   },
   "require-dev": {
     "yiisoft/yii2-debug": "~2.1.0",
